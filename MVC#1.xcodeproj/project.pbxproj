@@ -56,15 +56,23 @@
 		D2E565C82730A6B20074431E /* MVC#1 */ = {
 			isa = PBXGroup;
 			children = (
-				D2E565C92730A6B20074431E /* AppDelegate.swift */,
-				D2E565CB2730A6B20074431E /* SceneDelegate.swift */,
+				D2E565DE2730A6FA0074431E /* Other */,
 				D2E565CD2730A6B20074431E /* ViewController.swift */,
 				D2E565CF2730A6B20074431E /* Main.storyboard */,
-				D2E565D22730A6BF0074431E /* Assets.xcassets */,
 				D2E565D42730A6BF0074431E /* LaunchScreen.storyboard */,
-				D2E565D72730A6BF0074431E /* Info.plist */,
 			);
 			path = "MVC#1";
+			sourceTree = "<group>";
+		};
+		D2E565DE2730A6FA0074431E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D2E565D22730A6BF0074431E /* Assets.xcassets */,
+				D2E565CB2730A6B20074431E /* SceneDelegate.swift */,
+				D2E565C92730A6B20074431E /* AppDelegate.swift */,
+				D2E565D72730A6BF0074431E /* Info.plist */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UJ8B9FFXUA;
-				INFOPLIST_FILE = "MVC#1/Info.plist";
+				INFOPLIST_FILE = "MVC#1/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UJ8B9FFXUA;
-				INFOPLIST_FILE = "MVC#1/Info.plist";
+				INFOPLIST_FILE = "MVC#1/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
