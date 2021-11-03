@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Networkerror: Error {
+enum NetworkError: Error {
     case failInternetError
     case noInternetConnection
 }

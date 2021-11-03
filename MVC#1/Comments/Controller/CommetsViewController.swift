@@ -20,23 +20,27 @@ class CommetsViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-
 }
 
-extension CommetsViewController: UITableViewDelegate {}
-
 extension CommetsViewController: UITableViewDataSource {
+   
+    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CommentCell
         let comment = comments[indexPath.row]
         cell.configure(with: comment)
-        
         return cell
     }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return comments.count
     }
+    
 }
+
+
+
+
 

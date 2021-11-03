@@ -24,13 +24,39 @@
                                 <color key="shadowColor" systemColor="secondaryLabelColor"/>
                                 <size key="shadowOffset" width="4" height="10"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMT-Cm-vPX">
+                                <rect key="frame" x="0.0" y="310" width="414" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4oX-dd-kVz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rz-pe-GzR">
+                                <rect key="frame" x="0.0" y="565" width="414" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="wPK-yv-HDn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
+                            <constraint firstItem="3rz-pe-GzR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="1hv-68-WtN"/>
+                            <constraint firstItem="PpL-JT-nfH" firstAttribute="top" secondItem="fMT-Cm-vPX" secondAttribute="bottom" constant="30.5" id="3zn-5f-4DS"/>
+                            <constraint firstItem="fMT-Cm-vPX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FzQ-sf-ltB"/>
+                            <constraint firstItem="fMT-Cm-vPX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GMp-qo-uRr"/>
                             <constraint firstItem="PpL-JT-nfH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MVD-v2-9RF"/>
+                            <constraint firstItem="3rz-pe-GzR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VvE-XL-f1Z"/>
                             <constraint firstItem="PpL-JT-nfH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Zq5-uO-pah"/>
                             <constraint firstItem="PpL-JT-nfH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cmK-Ci-IYi"/>
+                            <constraint firstItem="3rz-pe-GzR" firstAttribute="top" secondItem="PpL-JT-nfH" secondAttribute="bottom" constant="30.5" id="vxg-BS-qNB"/>
                         </constraints>
                     </view>
                 </viewController>

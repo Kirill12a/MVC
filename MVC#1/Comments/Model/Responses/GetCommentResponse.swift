@@ -13,7 +13,7 @@ struct GetCommentResponse  { // при помощи этой структуры 
     typealias JSON = [String: AnyObject]
     
     init(json: Any) throws {
-        guard let array = json as? [JSON] else {throw Networkerror.failInternetError}
+        guard let array = json as? [JSON] else {throw NetworkError.failInternetError}
         
         var comments = [Comment]()
         
