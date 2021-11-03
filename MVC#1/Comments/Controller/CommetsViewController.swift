@@ -8,7 +8,7 @@
 import UIKit
 
 class CommetsViewController: UIViewController {
-
+    
     @IBOutlet weak var tableView: UITableView!
     var comments = [Comment]()
     
@@ -20,10 +20,8 @@ class CommetsViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-
+    
 }
-
-extension CommetsViewController: UITableViewDelegate {}
 
 extension CommetsViewController: UITableViewDataSource {
     
@@ -40,3 +38,19 @@ extension CommetsViewController: UITableViewDataSource {
     }
 }
 
+
+
+extension CommetsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        switch indexPath.row {
+        case 0:
+            print("У 1 почта \(comments[0].email)")
+        case 1:
+            print("У 1 почта \(comments[1].email)")
+        default:
+            print("deult")
+        }
+    }
+    
+}
