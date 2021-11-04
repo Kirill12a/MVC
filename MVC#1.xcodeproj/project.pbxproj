@@ -19,6 +19,7 @@
 		D2E565D12730A6B20074431E /* Comments.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E565CF2730A6B20074431E /* Comments.storyboard */; };
 		D2E565D32730A6BF0074431E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E565D22730A6BF0074431E /* Assets.xcassets */; };
 		D2E565D62730A6BF0074431E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E565D42730A6BF0074431E /* LaunchScreen.storyboard */; };
+		D2E833C427344AA300C1193E /* VkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E833C327344AA200C1193E /* VkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D2E565D22730A6BF0074431E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2E565D52730A6BF0074431E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2E565D72730A6BF0074431E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E833C327344AA200C1193E /* VkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				D2E566092731AB5E0074431E /* Comments */,
 				D2B2857A2731C19600FEC5D5 /* CommentNetworkService */,
 				D2E566102731AC000074431E /* SupportingFiles */,
+				D2E833C327344AA200C1193E /* VkViewController.swift */,
 			);
 			path = "MVC#1";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				D2227FBC2731C59A00F73E4E /* NetworkError.swift in Sources */,
 				D2B2856F2731B19100FEC5D5 /* CommentCell.swift in Sources */,
 				D2B2857D2731C1EE00FEC5D5 /* CommentNetworkService.swift in Sources */,
+				D2E833C427344AA300C1193E /* VkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

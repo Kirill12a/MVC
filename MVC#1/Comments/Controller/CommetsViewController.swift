@@ -20,6 +20,16 @@ class CommetsViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
+    func showMainApp(){
+        let mainAppViewController = UIStoryboard(name: "Comments", bundle: nil).instantiateViewController(identifier: "vk")
+        
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let sceneDelegate = windowScene.delegate as? SceneDelegate, let window = sceneDelegate.window{
+            
+            window.rootViewController = mainAppViewController
+            UIView.transition(with: window, duration: 0.25, options: .transitionCrossDissolve, animations: nil, completion: nil)
+        }
+        
+    }
     
 }
 
@@ -46,6 +56,8 @@ extension CommetsViewController: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             print("У 1 почта \(comments[0].email)")
+            
+           showMainApp() // сделать красиво
         case 1:
             print("У 1 почта \(comments[1].email)")
         default:
