@@ -60,6 +60,7 @@ extension CommetsViewController: UITableViewDelegate {
            showMainApp() // сделать красиво
         case 1:
             print("У 1 почта \(comments[1].email)")
+            showMainApp()
         default:
             print("deult")
         }
